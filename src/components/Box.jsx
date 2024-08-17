@@ -1,24 +1,25 @@
 import './Box.css'
 import { useState } from 'react'
+import ShowUser from './ShowUser'
 
-const Box = () => {
+const Box = (user) => {
   const [color, setColor] = useState(false)
-
+  console.log("box user",user.user)
+  
   const handleClick = () => {
-    console.log("before change:", color)
+    // console.log("before change:", color)
     setColor(!color)
   }
   return (
     <div onClick={handleClick} 
-    id='box' className={color ? 'red':"blue"}>
-      {console.log("after change:",color)}
+    id='box' className={color ? 'blue':"red"}>
+      {/* {console.log("after change:",color)} */}
       {color ? (
-          <p>
-            * * * RED * * *
-          </p>
+        // console.log('user.user',user.user)
+          <ShowUser user={user.user}/>
         ) : (
           <p>
-            * * * BLUE * * *
+            * * * RED * * *
           </p>
         )
       }
