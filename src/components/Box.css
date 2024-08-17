@@ -1,0 +1,31 @@
+#box{
+  text-align: center;
+  border: 2px solid grey;
+  height: 150px;
+  width: 150px;
+}
+#box:hover{
+  cursor: pointer;
+}
+/* .box:hover:after{
+  content: "This will be either red or blue!"
+  } */
+  
+.red{
+  background-color: red;
+}
+.red:hover:after{
+  content: "Click for BLUE";
+  color: white;
+  align-items: center;
+}
+.blue{
+  background-color: rgb(99, 185, 196);
+}
+.blue:hover{
+  
+}
+.blue:hover:after{
+  content: "Click for RED";
+  color: white;
+}
