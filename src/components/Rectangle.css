@@ -1,0 +1,12 @@
+.rectangle{
+  background-color: red;
+  border: 2px solid gray;
+  height: 300px;
+  margin-top: 30px;
+  width: 600px;
+}
+.rectangle:hover{
+  background-color: rgb(228, 109, 109);
+  color: white;
+  cursor: pointer;
+}

@@ -7,3 +7,7 @@
   text-align: left;
   width: 90%;
 }
+
+.show-user li:last-of-type {
+  font-size: 13px;
+}

@@ -14,6 +14,7 @@
 .red{
   background-color: red;
 }
+
 .red:hover:after{
   content: "Click for BLUE";
   color: white;
@@ -22,9 +23,7 @@
 .blue{
   background-color: rgb(99, 185, 196);
 }
-.blue:hover{
-  
-}
+
 .blue:hover:after{
   content: "Click for RED";
   color: white;
