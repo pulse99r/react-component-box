@@ -28,3 +28,8 @@
   content: "Click for RED";
   color: white;
 }
+.row{
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: row;
+}
