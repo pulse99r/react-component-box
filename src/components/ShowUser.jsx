@@ -4,7 +4,7 @@ import './ShowUser.css'
 
 const ShowUser = (props) => {
   const { user } = props
-  console.log('ShowUser', user)
+  // console.log('ShowUser', user)
   
   return (
    

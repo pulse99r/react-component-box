@@ -1,5 +1,19 @@
 .app{
+  align-items: center;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   flex-wrap: wrap;
+  justify-content: space-around; 
+}
+div button {
+  border: 1px solid;
+  border-radius: 8px;
+  font-size: 1.2em;
+  height: 50px;
+  margin: 20px auto;
+  width: 220px;
+}
+div button:hover {
+  cursor: pointer;
+  font-weight: 600;
 }

@@ -39,14 +39,14 @@ const userData = [
       "website": "tomort.com",
       "created_at": "2024-06-20T16:23:31.202Z"
     }
-    // {
-    //   "id": 6,
-    //   "fname": "Jim",
-    //   "lname": "Smith",
-    //   "city": "New York",
-    //   "website": "jsmith.com",
-    //   "created_at": "2024-06-20T16:23:31.202Z"
-    // }
+    , {
+      "id": 6,
+      "fname": "Jim",
+      "lname": "Smith",
+      "city": "New York",
+      "website": "jsmith.com",
+      "created_at": "2024-06-20T16:23:31.202Z"
+    }
   ]
 
   export default userData;

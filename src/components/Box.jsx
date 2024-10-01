@@ -10,7 +10,7 @@ const Box = (props) => {
     // console.log("before change:", color)
     setColor(!color)
   }
-  console.log("user:=>",user)
+  // console.log("user:=>",user)
   return (
     <div onClick={handleClick} 
     id='box' className={color ? 'blue':"red"}>
